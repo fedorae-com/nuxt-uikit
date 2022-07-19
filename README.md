@@ -19,7 +19,10 @@ yarn add --dev nuxt-uikit # or npm install --save-dev nuxt-uikit
 ```js
 {
   buildModules: [
+    // Simple usage
     'nuxt-uikit',
+    // With options
+    ['nuxt-uikit', { ssr: false }]
   ]
 }
 ```
