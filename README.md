@@ -1,4 +1,4 @@
-# nuxt-uikit
+# Nuxt [UIKit](https://github.com/uikit/uikit)
 
 > [UIkit](https://github.com/uikit/uikit) is a lightweight and modular front-end framework for developing fast and powerful web interfaces
 
