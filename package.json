@@ -20,7 +20,7 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "uikit": "^3.15.0"
+    "uikit": "^3.15.6"
   },
   "devDependencies": {
     "@babel/core": "latest",
