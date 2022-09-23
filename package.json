@@ -16,8 +16,7 @@
   "scripts": {
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue .",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest"
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
     "uikit": "^3.15.10"
@@ -30,10 +29,8 @@
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/module-test-utils": "latest",
     "babel-eslint": "latest",
-    "babel-jest": "latest",
     "eslint": "^8.23.1",
     "husky": "latest",
-    "jest": "latest",
     "nuxt-edge": "latest",
     "standard-version": "latest"
   },
