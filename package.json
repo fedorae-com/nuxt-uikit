@@ -24,6 +24,7 @@
   "devDependencies": {
     "@nuxt/module-builder": "latest",
     "@nuxtjs/eslint-config-typescript": "latest",
+    "@types/uikit": "latest",
     "eslint": "latest",
     "nuxt-edge": "latest",
     "standard-version": "latest"

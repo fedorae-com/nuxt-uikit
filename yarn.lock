@@ -1594,6 +1594,11 @@
   dependencies:
     source-map "^0.6.1"
 
+"@types/uikit@latest":
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/@types/uikit/-/uikit-3.14.0.tgz#8951f4ad2469297b0ba1d9dd810a180ac2ed69c1"
+  integrity sha512-1d3UY6h6PVfkvOxINerFUVvlseP9hk4lfdtmWoIEbtCgQSYyrX8gd7VbibLa7K+LkD8DpyYm0+yA/7OO7FmXDQ==
+
 "@types/webpack-sources@*":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@types/webpack-sources/-/webpack-sources-3.2.0.tgz#16d759ba096c289034b26553d2df1bf45248d38b"
