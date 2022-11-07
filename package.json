@@ -25,7 +25,7 @@
     "@nuxt/module-builder": "latest",
     "@nuxtjs/eslint-config-typescript": "latest",
     "@types/uikit": "latest",
-    "eslint": "latest",
+    "eslint": "^8.27.0",
     "nuxt-edge": "latest",
     "standard-version": "latest"
   },
