@@ -19,7 +19,7 @@
     "release": "standard-version && git push --follow-tags && yarn publish"
   },
   "dependencies": {
-    "uikit": "^3.15.10"
+    "uikit": "^3.15.12"
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
