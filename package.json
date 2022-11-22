@@ -1,39 +1,48 @@
 {
   "name": "nuxt-uikit",
   "version": "2.0.4",
-  "description": "UIkit module for Nuxt.js",
+  "description": "UIkit module for Nuxt",
   "repository": "https://github.com/fedorae-com/nuxt-uikit",
   "license": "MIT",
-  "contributors": [
-    {
-      "name": ""
+  "exports": {
+    ".": {
+      "require": "./dist/module.cjs",
+      "import": "./dist/module.mjs"
     }
-  ],
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
   "files": [
-    "lib"
+    "dist"
   ],
-  "main": "lib/module.js",
   "scripts": {
-    "dev": "nuxt example",
+    "build": "nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "dev:nuxt2": "nuxt dev nuxt2-playground",
     "lint": "eslint --ext .js,.vue .",
+    "prepack": "yarn build",
     "release": "standard-version && git push --follow-tags && yarn publish"
   },
   "dependencies": {
-    "uikit": "^3.15.12"
+    "@nuxt/kit": "^3.0.0",
+    "uikit": "^3.15.14"
   },
   "devDependencies": {
-    "@nuxt/module-builder": "latest",
-    "@nuxtjs/eslint-config-typescript": "latest",
-    "@types/uikit": "latest",
+    "@nuxt/module-builder": "^0.2.1",
+    "@nuxt/schema": "^3.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@types/uikit": "^3.14.0",
     "eslint": "^8.27.0",
-    "nuxt-edge": "latest",
-    "standard-version": "latest"
+    "nuxt": "^3.0.0",
+    "standard-version": "^9.5.0"
   },
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
-    "nuxt.js",
+    "nuxt",
     "uikit",
     "module"
   ]
