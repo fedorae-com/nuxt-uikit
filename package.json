@@ -1,6 +1,6 @@
 {
   "name": "nuxt-uikit",
-  "version": "3.0.0-beta.5",
+  "version": "3.0.0-beta.6",
   "description": "UIkit module for Nuxt",
   "repository": "https://github.com/fedorae-com/nuxt-uikit",
   "license": "MIT",
@@ -21,7 +21,6 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "dev:nuxt2": "nuxt dev nuxt2-playground",
     "lint": "eslint --ext .js,.vue .",
     "prepack": "yarn build",
     "release": "standard-version && git push --follow-tags && yarn publish --tag next"
@@ -35,7 +34,7 @@
     "@nuxt/schema": "^3.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@types/uikit": "^3.14.0",
-    "eslint": "^8.28.0",
+    "eslint": "^8.27.0",
     "nuxt": "^3.0.0",
     "standard-version": "^9.5.0"
   },
