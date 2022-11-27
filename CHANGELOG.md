@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.0-beta.6...v3.0.0) (2022-11-27)
+
 ### [2.0.5](https://github.com/fedorae-com/nuxt-uikit/compare/v2.0.4...v2.0.5) (2022-11-25)
 - Update to uikit latest v3.15.14
 - Update to eslint latest v8.28.0
