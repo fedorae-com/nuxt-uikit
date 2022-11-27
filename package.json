@@ -1,9 +1,10 @@
 {
   "name": "nuxt-uikit",
-  "version": "3.0.0-beta.1",
+  "version": "3.0.0-beta.2",
   "description": "UIkit module for Nuxt",
   "repository": "https://github.com/fedorae-com/nuxt-uikit",
   "license": "MIT",
+  "type": "module",
   "exports": {
     ".": {
       "require": "./dist/module.cjs",
