@@ -1,11 +1,8 @@
-import { resolve } from 'path'
-import { fileURLToPath } from 'url'
-import { defineNuxtModule, addPlugin } from '@nuxt/kit'
+import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import { fileURLToPath } from 'node:url'
 import { name, version } from '../package.json'
 
-export interface ModuleOptions {
-  addPlugin: boolean
-}
+export interface ModuleOptions { }
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
@@ -13,15 +10,12 @@ export default defineNuxtModule<ModuleOptions>({
     version,
     configKey: 'uikit'
   },
-  defaults: {
-    addPlugin: true
-  },
-  setup (options, nuxt) {
-    if (options.addPlugin) {
-      const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
-      nuxt.options.css.push('uikit/dist/css/uikit.css')
-      nuxt.options.build.transpile.push(runtimeDir)
-      addPlugin(resolve(runtimeDir, 'plugin'))
-    }
+  defaults: { },
+  async setup(moduleOptions, nuxt) {
+    const { resolve } = createResolver(import.meta.url)
+    const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
+    nuxt.options.css.push('uikit/dist/css/uikit.css')
+    nuxt.options.build.transpile.push(runtimeDir)
+    addPlugin(resolve(runtimeDir, 'plugin'))
   }
 })
