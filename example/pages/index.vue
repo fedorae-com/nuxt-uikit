@@ -11,7 +11,7 @@
           <p> Find a bug? Report it on the github <a href="https://github.com/uikit/uikit/issues" target="_blank" rel="noopener noreferrer" title="contribute">issue board</a>.</p>
           <p>Thank you for using this Nuxt UIkit module.</p>
           <div class="uk-margin-small-bottom">
-            <a href="https://github.com/fedorae-com/nuxt-uikit-module" target="_blank" rel="noopener noreferrer" class="uk-icon-button" uk-icon="github" />
+            <a href="https://github.com/fedorae-com/nuxt-uikit" target="_blank" rel="noopener noreferrer" class="uk-icon-button" uk-icon="github" />
           </div>
           <div class="text-xs-right">
             <em><small>&mdash; Yisrae</small></em>
