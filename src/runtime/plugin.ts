@@ -1,4 +1,4 @@
-import { defineNuxtPlugin } from '#app'
+import { defineNuxtPlugin } from '#imports'
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons'
 
