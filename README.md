@@ -5,35 +5,35 @@
 > [UIkit](https://github.com/uikit/uikit) is a lightweight and modular front-end framework for developing fast and powerful web interfaces
 
 
-## Setup
+# Setup
 
-1. Add `nuxt-uikit` dependency to your project
+## Installation
+Add `nuxt-uikit` dependency to your project:
 
 ```bash
-yarn add --dev nuxt-uikit # or npm install --save-dev nuxt-uikit
+# Using yarn
+yarn add --dev nuxt-uikit
+```
+```bash
+# Using npm
+npm install --save-dev nuxt-uikit
 ```
 
-2. Add `nuxt-uikit` to the `buildModules` section of `nuxt.config.js`
+## Setup
+Add nuxt-uikit-module to the modules section of your nuxt.config.ts file:
 
-
-:warning: If you are using Nuxt `< 2.9.0`, use `modules` instead.
-
-```js
+```ts
 {
-  buildModules: [
-    // Simple usage
-    'nuxt-uikit',
-    // With options
-    ['nuxt-uikit', { ssr: false }]
-  ]
+  modules: [
+    'nuxt-uikit'
+  ],
 }
+
 ```
+# Development
 
-## Development
-
-1. Clone this repository
-2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `yarn dev` or `npm run dev`
+- Run `yarn dev:prepare` to generate type stubs.
+- Use `yarn dev` to start [playground](./playground) in development mode.
 
 ## License
 
