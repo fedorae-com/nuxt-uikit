@@ -1,7 +1,9 @@
-import { defineNuxtModule } from '@nuxt/kit'
+import { defineNuxtModule, addPlugin } from '@nuxt/kit'
 import { name, version } from '../package.json'
 
-export interface ModuleOptions { }
+export interface ModuleOptions {
+  addPlugin: Boolean
+}
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
@@ -9,8 +11,12 @@ export default defineNuxtModule<ModuleOptions>({
     version,
     configKey: 'uikit'
   },
-  defaults: { },
-  async setup(moduleOptions, nuxt) {
-    nuxt.options.css.push('uikit/dist/css/uikit.css')
+  defaults: {
+    addPlugin: true 
+  },
+  setup (options, nuxt) {
+    if (options.addPlugin) {
+      nuxt.options.css.push('uikit/dist/css/uikit.css')
+    }
   }
 })
