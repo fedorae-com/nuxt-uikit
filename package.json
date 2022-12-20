@@ -1,6 +1,6 @@
 {
   "name": "nuxt-uikit",
-  "version": "3.0.0-dev.12",
+  "version": "3.0.0-dev.13",
   "description": "UIkit module for Nuxt",
   "repository": "https://github.com/fedorae-com/nuxt-uikit",
   "license": "MIT",
@@ -24,15 +24,15 @@
     "pub": "yarn publish --tag dev"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.0.0-rc.4",
-    "uikit": "^3.15.0"
+    "@nuxt/kit": "^3.0.0",
+    "uikit": "^3.15.18"
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
     "@nuxtjs/eslint-config-typescript": "latest",
     "@types/uikit": "^3.14.0",
     "eslint": "latest",
-    "nuxt": "^3.0.0-rc.4"
+    "nuxt": "^3.0.0"
   },
   "keywords": [
     "nuxt",
