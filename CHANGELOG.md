@@ -2,8 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-- Update uikit to latest v3.15.19
-- Update eslint to latest v8.31.0
+-- Update uikit to latest v3.15.19
+-- Update eslint to latest v8.31.0
 
 ### [2.0.9](https://github.com/fedorae-com/nuxt-uikit/compare/v2.0.8...v2.0.9) (2022-12-07)
 - Fix link to repo typo in example app
