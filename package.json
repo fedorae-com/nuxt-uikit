@@ -1,6 +1,6 @@
 {
   "name": "nuxt-uikit",
-  "version": "3.0.0-dev.22",
+  "version": "3.0.0-dev.23",
   "description": "UIkit module for Nuxt",
   "repository": "https://github.com/fedorae-com/nuxt-uikit",
   "license": "MIT",
@@ -12,7 +12,7 @@
     }
   },
   "main": "./dist/module.cjs",
-  "types": "./dist/types.d.ts",
+  "types": "./dist/module.d.ts",
   "files": [
     "dist"
   ],
