@@ -37,4 +37,4 @@ yarn add --dev nuxt-uikit # or npm install --save-dev nuxt-uikit
 
 [MIT License](./LICENSE)
 
-Copyright (c) 2022 Fedorae
+Copyright (c) 2023 Fedorae
