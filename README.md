@@ -12,11 +12,11 @@ Add `nuxt-uikit` dependency to your project:
 
 ```bash
 # Using yarn
-yarn add --dev nuxt-uikit
+yarn add --dev nuxt-uikit@next
 ```
 ```bash
 # Using npm
-npm install --save-dev nuxt-uikit
+npm install --save-dev nuxt-uikit@next
 ```
 
 ## Setup
@@ -39,4 +39,4 @@ Add nuxt-uikit-module to the modules section of your nuxt.config.ts file:
 
 [MIT License](./LICENSE)
 
-Copyright (c) 2022 Fedorae
+Copyright (c) 2023 Fedorae
