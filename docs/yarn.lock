@@ -627,7 +627,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nuxt-themes/docus@^1.6.0":
+"@nuxt-themes/docus@^1.8.1":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@nuxt-themes/docus/-/docus-1.8.1.tgz#96f9bab331e32743cf0d3fb6cdd09fdd3045448b"
   integrity sha512-UrsqD24e5hewHKDvqfgDNV0I6dGpKieaZoUG7aaCPP0glAqNlWMw8SFHlM7KFBx9iREmWed1XxCkN7wAcJPIUQ==
@@ -4287,7 +4287,7 @@ nuxt-icon@^0.2.10:
     "@nuxt/kit" "^3.1.0"
     nuxt-config-schema "^0.4.4"
 
-nuxt@^3.1.0:
+nuxt@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.2.0.tgz#d952f8d2c2776a74656b80cc72a6533b56c0ad6c"
   integrity sha512-8jAYyjU1Ht+MXPLLDIdIUmV56KiI0g7KusKwzvqn+vlzyCNtSHg2W/VBCGw5QWplb/MXruogcMl2sDenlQRZFg==
