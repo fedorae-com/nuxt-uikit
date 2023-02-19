@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [3.0.0-beta.15](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.0-beta.9...3.0.0-beta.15) (2022-02-19)
+## [3.0.0-beta.15](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.0-beta.9...3.0.0-beta.15) (2023-02-19)
 - Add uk icon support
 - Fix Uncaught SyntaxError: ambiguous indirect export: default*
 
