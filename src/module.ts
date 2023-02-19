@@ -12,9 +12,25 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {},
   setup(options, nuxt) {
     const resolver = createResolver(import.meta.url)
+    const useNuxtMeta = (fn: Function) => fn(nuxt.options.app.head)
 
-    nuxt.options.css.push('uikit/dist/css/uikit.css')
+    nuxt.options.css.push('uikit/dist/css/uikit.min.css')
 
     addPlugin(resolver.resolve('./runtime/plugin'))
+
+    useNuxtMeta((head: any) => {
+      head.script = head.script ?? [] 
+      
+      // TODO: figure out a better way to get the icons to work 
+      head.script.push(
+        {
+          defer: true,
+          src: 'https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit.min.js'
+        },
+        {
+          defer: true,
+          src: 'https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit-icons.min.js'
+        })
+    })
   }
 })
