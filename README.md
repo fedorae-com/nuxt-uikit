@@ -12,11 +12,11 @@ Add `nuxt-uikit` dependency to your project:
 
 ```bash
 # Using yarn
-yarn add --dev nuxt-uikit@next
+yarn add --dev nuxt-uikit
 ```
 ```bash
 # Using npm
-npm install --save-dev nuxt-uikit@next
+npm install --save-dev nuxt-uikit
 ```
 
 ## Setup
