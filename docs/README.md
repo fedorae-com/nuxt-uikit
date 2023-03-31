@@ -11,7 +11,7 @@ This docs is for applications using Nuxt 2. The docs for Nuxt 3 is [nuxt-uikit](
 1. Add `nuxt-uikit` dependency to your project
 
 ```bash
-yarn add --dev nuxt-uikit@v2 # or npm install --save-dev nuxt-uikit@v2
+yarn add --dev nuxt-uikit # or npm install --save-dev nuxt-uikit
 ```
 
 2. Add `nuxt-uikit` to the `buildModules` section of `nuxt.config.js`
