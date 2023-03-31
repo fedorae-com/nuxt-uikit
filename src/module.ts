@@ -1,5 +1,5 @@
 import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
-import { name, version } from '../package.json'
+import { name, version, dependencies } from '../package.json'
 
 export interface ModuleOptions { }
 
@@ -14,6 +14,8 @@ export default defineNuxtModule<ModuleOptions>({
     const resolver = createResolver(import.meta.url)
     const useNuxtMeta = (fn: Function) => fn(nuxt.options.app.head)
 
+    const uikitVersion = dependencies.uikit
+
     nuxt.options.css.push('uikit/dist/css/uikit.min.css')
 
     addPlugin(resolver.resolve('./runtime/plugin'))
@@ -25,11 +27,11 @@ export default defineNuxtModule<ModuleOptions>({
       head.script.push(
         {
           defer: true,
-          src: 'https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit.min.js'
+          src: `https://cdn.jsdelivr.net/npm/uikit@${uikitVersion}/dist/js/uikit.min.js`
         },
         {
           defer: true,
-          src: 'https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit-icons.min.js'
+          src: `https://cdn.jsdelivr.net/npm/uikit@${uikitVersion}/dist/js/uikit-icons.min.js`
         })
     })
   }
