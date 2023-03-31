@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-uikit",
+  "name": "@fedorae/nuxt-uikit",
   "version": "3.0.1",
   "description": "UIkit module for Nuxt",
   "repository": "https://github.com/fedorae-com/nuxt-uikit",
