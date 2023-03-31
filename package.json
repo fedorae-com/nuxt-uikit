@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue .",
-    "release": "standard-version && git push --follow-tags && yarn publish"
+    "release": "standard-version && git push --follow-tags && yarn publish --tag v2"
   },
   "dependencies": {
     "uikit": "latest"
