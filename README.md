@@ -8,24 +8,24 @@
 # Setup
 
 ## Installation
-Add `nuxt-uikit` dependency to your project:
+Add `@fedorae/nuxt-uikit` dependency to your project:
 
 ```bash
 # Using yarn
-yarn add --dev nuxt-uikit
+yarn add --dev @fedorae/nuxt-uikit
 ```
 ```bash
 # Using npm
-npm install --save-dev nuxt-uikit
+npm install --save-dev @fedorae/nuxt-uikit
 ```
 
 ## Setup
-Add nuxt-uikit-module to the modules section of your nuxt.config.ts file:
+Add @fedorae/nuxt-uikit to the modules section of your nuxt.config.ts file:
 
 ```ts
 {
   modules: [
-    'nuxt-uikit'
+    '@fedorae/nuxt-uikit'
   ],
 }
 
