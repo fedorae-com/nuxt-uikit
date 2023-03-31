@@ -11,7 +11,7 @@ This branch is for applications using Nuxt 2. The branch for Nuxt 3 is [fedorae-
 1. Add `nuxt-uikit` dependency to your project
 
 ```bash
-yarn add --dev nuxt-uikit # or npm install --save-dev nuxt-uikit
+yarn add --dev nuxt-uikit # or npm install --save-dev nuxt-uikit or pnpm install -D nuxt-uikit
 ```
 
 2. Add `nuxt-uikit` to the `buildModules` section of `nuxt.config.js`
@@ -33,8 +33,8 @@ yarn add --dev nuxt-uikit # or npm install --save-dev nuxt-uikit
 ## Development
 
 1. Clone this repository
-2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `yarn dev` or `npm run dev`
+2. Install dependencies using `yarn install` or `npm install` or `pnpm install`
+3. Start development server using `yarn dev` or `npm run dev` or `pnpm run dev`
 
 ## License
 
