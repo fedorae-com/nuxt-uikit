@@ -2,13 +2,16 @@
 
 > [UIkit](https://github.com/uikit/uikit) is a lightweight and modular front-end framework for developing fast and powerful web interfaces
 
+## Nuxt 2 Branch
+
+This branch is for applications using Nuxt 2. The branch for Nuxt 3 is [fedorae-com/nuxt-uikit](https://github.com/fedorae-com/nuxt-uikit).
 
 ## Setup
 
 1. Add `nuxt-uikit` dependency to your project
 
 ```bash
-yarn add --dev nuxt-uikit # or npm install --save-dev nuxt-uikit
+yarn add --dev nuxt-uikit@v2 # or npm install --save-dev nuxt-uikit@v2
 ```
 
 2. Add `nuxt-uikit` to the `buildModules` section of `nuxt.config.js`

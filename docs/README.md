@@ -2,13 +2,16 @@
 
 > [UIkit](https://github.com/uikit/uikit) is a lightweight and modular front-end framework for developing fast and powerful web interfaces
 
+## Nuxt 2 Docs
+
+This docs is for applications using Nuxt 2. The docs for Nuxt 3 is [nuxt-uikit](https://nuxt-uikit.fedorae.com).
 
 ## Setup
 
 1. Add `nuxt-uikit` dependency to your project
 
 ```bash
-yarn add --dev nuxt-uikit # or npm install --save-dev nuxt-uikit
+yarn add --dev nuxt-uikit@v2 # or npm install --save-dev nuxt-uikit@v2
 ```
 
 2. Add `nuxt-uikit` to the `buildModules` section of `nuxt.config.js`
@@ -37,4 +40,4 @@ yarn add --dev nuxt-uikit # or npm install --save-dev nuxt-uikit
 
 [MIT License](./LICENSE)
 
-Copyright (c) 2022 Fedorae
+Copyright (c) 2023 Fedorae
