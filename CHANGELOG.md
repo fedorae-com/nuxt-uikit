@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.0.0
+
 ## [3.0.0-beta.9](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.0-beta.8...3.0.0-beta.9) (2022-12-13)
 
 ## [3.0.0-beta.8](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.0-beta.7...3.0.0-beta.8) (2022-12-06)
