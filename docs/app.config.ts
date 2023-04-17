@@ -26,7 +26,7 @@ export default defineAppConfig({
         },
         {
           href: 'https://fedorae.com',
-          icon: ''
+          icon: 'mdi:external-link'
         }
       ]
     }
