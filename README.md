@@ -35,6 +35,9 @@ Add @fedorae/nuxt-uikit to the modules section of your nuxt.config.ts file:
 - Run `yarn dev:prepare` to generate type stubs.
 - Use `yarn dev` to start [playground](./playground) in development mode.
 
+## Credits
+Nuxt UIkit Image - [https://codesandbox.io/s/pjmkmvp327](https://codesandbox.io/s/pjmkmvp327) ([pdipasqua](https://codesandbox.io/u/pdipasqua))
+
 ## License
 
 [MIT License](./LICENSE)

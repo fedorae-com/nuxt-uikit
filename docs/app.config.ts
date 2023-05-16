@@ -6,7 +6,7 @@ export default defineAppConfig({
     image: '/cover.png',
     socials: {
       twitter: 'fedorae_',
-      github: 'fedorae-com/nuxt-uikit/tree/next',
+      github: 'fedorae-com/nuxt-uikit',
     },
     aside: {
       level: 0,
@@ -26,7 +26,7 @@ export default defineAppConfig({
         },
         {
           href: 'https://fedorae.com',
-          icon: ''
+          icon: 'mdi:external-link'
         }
       ]
     }

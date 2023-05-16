@@ -1,6 +1,6 @@
 {
   "name": "@fedorae/nuxt-uikit",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "UIkit module for Nuxt",
   "repository": "https://github.com/fedorae-com/nuxt-uikit",
   "license": "MIT",
@@ -28,19 +28,19 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.3.2",
-    "uikit": "^3.16.13"
+    "@nuxt/kit": "^3.4.3",
+    "uikit": "^3.16.17"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
-    "@nuxt/module-builder": "^0.2.1",
-    "@nuxt/schema": "^3.3.2",
-    "@nuxt/test-utils": "^3.3.2",
+    "@nuxt/module-builder": "^0.3.1",
+    "@nuxt/schema": "^3.4.3",
+    "@nuxt/test-utils": "^3.4.3",
     "@types/uikit": "^3.14.0",
-    "changelogen": "^0.5.2",
-    "eslint": "^8.37.0",
-    "nuxt": "^3.3.2",
-    "vitest": "^0.29.8"
+    "changelogen": "^0.5.3",
+    "eslint": "^8.40.0",
+    "nuxt": "^3.4.3",
+    "vitest": "^0.31.0"
   },
   "keywords": [
     "nuxt",
