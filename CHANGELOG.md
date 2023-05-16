@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## v3.0.2
 
-[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.2...v3.0.2)
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.2...v3.0.1)
 
 
 ### 🏡 Chore
