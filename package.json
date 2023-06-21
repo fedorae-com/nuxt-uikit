@@ -28,8 +28,8 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.4.3",
-    "uikit": "^3.16.17"
+    "@nuxt/kit": "^3.5.3",
+    "uikit": "^3.16.21"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
