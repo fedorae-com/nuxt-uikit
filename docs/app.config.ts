@@ -10,7 +10,7 @@ export default defineAppConfig({
     },
     aside: {
       level: 0,
-      exclude: []
+      exclude: [],
     },
     header: {
       title: 'Nuxt UIkit',
@@ -26,13 +26,13 @@ export default defineAppConfig({
       iconLinks: [
         {
           href: 'https://fedorae.com',
-          icon: 'mdi:external-link'
+          icon: 'mdi:external-link',
         },
         {
           href: 'https://nuxt.com',
-          icon: 'IconNuxtLabs'
-        }
-      ]
-    }
-  }
+          icon: 'IconNuxtLabs',
+        },
+      ],
+    },
+  },
 })
