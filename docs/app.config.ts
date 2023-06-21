@@ -21,12 +21,12 @@ export default defineAppConfig({
     footer: {
       iconLinks: [
         {
-          href: 'https://nuxt.com',
-          icon: 'IconNuxtLabs'
-        },
-        {
           href: 'https://fedorae.com',
           icon: 'mdi:external-link'
+        },
+        {
+          href: 'https://nuxt.com',
+          icon: 'IconNuxtLabs'
         }
       ]
     }
