@@ -14,7 +14,6 @@ export default defineAppConfig({
     },
     header: {
       title: 'Nuxt UIkit',
-      // logo: true,
       showLinkIcon: true,
       exclude: []
     },
