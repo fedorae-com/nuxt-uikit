@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.0.3
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.2...v3.0.3)
+
+
+### 🏡 Chore
+
+  - **release:** V3.0.2 ([59a5ec4](https://github.com/fedorae-com/nuxt-uikit/commit/59a5ec4))
+  - **release:** V3.0.2 ([86e236d](https://github.com/fedorae-com/nuxt-uikit/commit/86e236d))
+
+### ❤️  Contributors
+
+- Yisrae <yisrae@fedorae.com>
+
 ## v3.0.2
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.2...v3.0.1)
