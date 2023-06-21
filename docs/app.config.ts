@@ -15,7 +15,12 @@ export default defineAppConfig({
     header: {
       title: 'Nuxt UIkit',
       showLinkIcon: true,
-      exclude: []
+      exclude: [],
+    },
+    app: {
+      head: {
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
+      },
     },
     footer: {
       iconLinks: [
