@@ -25,6 +25,7 @@ export default defineNuxtModule<ModuleOptions>({
     const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
     nuxt.options.build.transpile.push(runtimeDir)
 
+    nuxt.options.css = nuxt.options.css ?? []
     nuxt.options.css.push('uikit/dist/css/uikit.min.css')
 
     addPlugin(resolve(runtimeDir, 'plugin'))
