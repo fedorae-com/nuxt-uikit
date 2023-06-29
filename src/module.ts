@@ -3,7 +3,7 @@ import {
   defineNuxtModule,
   createResolver,
   addPlugin,
-  addImportsDir,
+  addImports,
 } from '@nuxt/kit'
 import { name, version, dependencies } from '../package.json'
 
@@ -29,7 +29,11 @@ export default defineNuxtModule<ModuleOptions>({
 
     addPlugin(resolve(runtimeDir, 'plugin'))
 
-    addImportsDir(resolve(runtimeDir, 'composables'))
+    addImports({
+      name: 'useUIkit',
+      as: 'useUIkit',
+      from: resolve(runtimeDir, 'composables/useUIkit'),
+    })
 
     useNuxtMeta((head: any) => {
       head.script = head.script ?? []
