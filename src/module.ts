@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'url'
 import {
   defineNuxtModule,
   addPlugin,
@@ -16,10 +17,13 @@ export default defineNuxtModule<ModuleOptions>({
   },
   defaults: {},
   setup(options, nuxt) {
-    const resolver = createResolver(import.meta.url)
+    const { resolve } = createResolver(import.meta.url)
     const useNuxtMeta = (fn: Function) => fn(nuxt.options.app.head)
 
     const uikitVersion = dependencies.uikit
+
+    const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
+    nuxt.options.build.transpile.push(runtimeDir)
 
     nuxt.options.css.push('uikit/dist/css/uikit.min.css')
 
