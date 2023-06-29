@@ -1,9 +1,9 @@
 import { fileURLToPath } from 'url'
 import {
   defineNuxtModule,
-  addPlugin,
-  addImports,
   createResolver,
+  addPlugin,
+  addImportsDir,
 } from '@nuxt/kit'
 import { name, version, dependencies } from '../package.json'
 
@@ -27,11 +27,9 @@ export default defineNuxtModule<ModuleOptions>({
 
     nuxt.options.css.push('uikit/dist/css/uikit.min.css')
 
-    addPlugin(resolver.resolve('./runtime/plugin'))
-    addImports({
-      name: 'useUIkit',
-      from: resolver.resolve('./runtime/composables'),
-    })
+    addPlugin(resolve(runtimeDir, 'plugin'))
+
+    addImportsDir(resolve(runtimeDir, 'composables'))
 
     useNuxtMeta((head: any) => {
       head.script = head.script ?? []
