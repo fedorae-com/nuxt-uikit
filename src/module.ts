@@ -1,13 +1,18 @@
-import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import {
+  defineNuxtModule,
+  addPlugin,
+  addImports,
+  createResolver,
+} from '@nuxt/kit'
 import { name, version, dependencies } from '../package.json'
 
-export interface ModuleOptions { }
+export interface ModuleOptions {}
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name,
     version,
-    configKey: 'uikit'
+    configKey: 'uikit',
   },
   defaults: {},
   setup(options, nuxt) {
@@ -19,20 +24,25 @@ export default defineNuxtModule<ModuleOptions>({
     nuxt.options.css.push('uikit/dist/css/uikit.min.css')
 
     addPlugin(resolver.resolve('./runtime/plugin'))
+    addImports({
+      name: 'useUIkit',
+      from: resolver.resolve('./runtime/composables'),
+    })
 
     useNuxtMeta((head: any) => {
-      head.script = head.script ?? [] 
-      
-      // TODO: figure out a better way to get the icons to work 
+      head.script = head.script ?? []
+
+      // TODO: figure out a better way to get the icons to work
       head.script.push(
         {
           defer: true,
-          src: `https://cdn.jsdelivr.net/npm/uikit@${uikitVersion}/dist/js/uikit.min.js`
+          src: `https://cdn.jsdelivr.net/npm/uikit@${uikitVersion}/dist/js/uikit.min.js`,
         },
         {
           defer: true,
-          src: `https://cdn.jsdelivr.net/npm/uikit@${uikitVersion}/dist/js/uikit-icons.min.js`
-        })
+          src: `https://cdn.jsdelivr.net/npm/uikit@${uikitVersion}/dist/js/uikit-icons.min.js`,
+        }
+      )
     })
-  }
+  },
 })
