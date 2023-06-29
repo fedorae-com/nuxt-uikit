@@ -1,6 +1,6 @@
 {
   "name": "@fedorae/nuxt-uikit",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "UIkit module for Nuxt",
   "repository": "https://github.com/fedorae-com/nuxt-uikit",
   "license": "MIT",
