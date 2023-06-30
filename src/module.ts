@@ -40,7 +40,7 @@ export default defineNuxtModule<ModuleOptions>({
         icon: 'logos:uikit',
         view: {
           type: 'iframe',
-          src: 'https://getuikit.com/docs/introduction',
+          src: 'https://getuikit.com',
         },
       })
     }
