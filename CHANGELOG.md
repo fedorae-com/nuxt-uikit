@@ -2,14 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## v3.0.9
-
-[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.8...v3.0.9)
-
-## v3.0.8
-
-[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.7...v3.0.8)
-
 ### 🏡 Chore
 
 - Disable useUIkit composable due to return of https://github.com/fedorae-com/nuxt-uikit/issues/4 ([7669694](https://github.com/fedorae-com/nuxt-uikit/commit/7669694))
