@@ -84,12 +84,12 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import { useUIkit } from '../src/runtime/composables/useUIkit'
-const { UIkit, notification, sticky, icon, drop, offcanvas } = useUIkit()
+import UIkit from 'uikit'
+// const { UIkit, notification, sticky, icon, drop, offcanvas } = useUIkit()
 onMounted(() => {
-  notification({ message: 'Nuxt + UIkit', status: 'success' })
-  const iconEl = icon('#iconEl').icon
-  notification({ message: `Icon: ${iconEl}`, status: 'primary' })
-  offcanvas('#offcanvas-overlay', { overlay: true }).toggle()
+  UIkit.notification({ message: 'Nuxt + UIkit', status: 'success' })
+  const iconEl = UIkit.icon('#iconEl').icon
+  UIkit.notification({ message: `Icon: ${iconEl}`, status: 'primary' })
+  UIkit.offcanvas('#offcanvas-overlay', { overlay: true }).toggle()
 })
 </script>
