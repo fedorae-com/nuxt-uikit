@@ -1,10 +1,6 @@
 import { fileURLToPath } from 'url'
-import {
-  defineNuxtModule,
-  createResolver,
-  addPlugin,
-  addImports,
-} from '@nuxt/kit'
+import { defineNuxtModule, createResolver, addPlugin } from '@nuxt/kit'
+import { addCustomTab } from '@nuxt/devtools-kit'
 import { name, version, dependencies } from '../package.json'
 
 export interface ModuleOptions {}
@@ -30,11 +26,24 @@ export default defineNuxtModule<ModuleOptions>({
 
     addPlugin(resolve(runtimeDir, 'plugin'))
 
-    addImports({
-      name: 'useUIkit',
-      as: 'useUIkit',
-      from: resolve(runtimeDir, 'composables/useUIkit'),
-    })
+    // Disable import due to return https://github.com/fedorae-com/nuxt-uikit/issues/4
+    // addImports({
+    //   name: 'useUIkit',
+    //   as: 'useUIkit',
+    //   from: resolve(runtimeDir, 'composables/useUIkit'),
+    // })
+
+    if (nuxt.options.devtools && nuxt.options.dev) {
+      addCustomTab({
+        name: 'nuxt-uikit',
+        title: 'UIkit',
+        icon: 'logos:uikit',
+        view: {
+          type: 'iframe',
+          src: 'https://getuikit.com/docs/introduction',
+        },
+      })
+    }
 
     useNuxtMeta((head: any) => {
       head.script = head.script ?? []
