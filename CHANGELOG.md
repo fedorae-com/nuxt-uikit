@@ -4,11 +4,17 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## v3.0.8
 
-[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.8-edge.49...v3.0.8)
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.7...v3.0.8)
 
-## v3.0.7
+### 🏡 Chore
 
-[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.7-edge.4...v3.0.7)
+- Disable useUIkit composable due to return of https://github.com/fedorae-com/nuxt-uikit/issues/4 ([7669694](https://github.com/fedorae-com/nuxt-uikit/commit/7669694))
+- Add UIkit document tab to devtools ([7015888](https://github.com/fedorae-com/nuxt-uikit/commit/7015888))
+- Add devtools-kit + Update all packages to latest ([d363d79](https://github.com/fedorae-com/nuxt-uikit/commit/d363d79))
+
+### ❤️ Contributors
+
+- Yisrae <yisrae@fedorae>
 
 ## v3.0.7
 
