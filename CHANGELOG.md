@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## v3.0.7
 
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.7-edge.4...v3.0.7)
+
+## v3.0.7
+
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.6...v3.0.7)
 
 ## v3.0.6
