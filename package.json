@@ -1,10 +1,11 @@
 {
-  "name": "@fedorae/nuxt-uikit-edge",
-  "version": "3.0.7",
+  "name": "nuxt-uikit-edge",
+  "version": "3.0.7-edge.1",
   "description": "UIkit module for Nuxt",
   "repository": "https://github.com/fedorae-com/nuxt-uikit",
   "license": "MIT",
   "type": "module",
+  "private": false,
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
