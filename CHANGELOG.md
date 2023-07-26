@@ -4,7 +4,22 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## v3.0.9
 
-[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.9...v3.0.9)
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.8...v3.0.9)
+
+### 🏡 Chore
+
+- (docs) Add Nuxt UIkit cover template content ([08d98ac](https://github.com/fedorae-com/nuxt-uikit/commit/08d98ac))
+- (docs) Add Nuxt DevTools integration content ([eb0328e](https://github.com/fedorae-com/nuxt-uikit/commit/eb0328e))
+- (docs) Add .prettierignore ([df8d815](https://github.com/fedorae-com/nuxt-uikit/commit/df8d815))
+- (docs) Update title ([688985a](https://github.com/fedorae-com/nuxt-uikit/commit/688985a))
+- (docs) Add pnpm installation config ([fa70c40](https://github.com/fedorae-com/nuxt-uikit/commit/fa70c40))
+- (docs) Update all packages ([865a9dc](https://github.com/fedorae-com/nuxt-uikit/commit/865a9dc))
+- Update all packages with major release updates ([66fe10b](https://github.com/fedorae-com/nuxt-uikit/commit/66fe10b))
+- Update all packages with patch and minor updates ([06b14af](https://github.com/fedorae-com/nuxt-uikit/commit/06b14af))
+
+### ❤️ Contributors
+
+- Yisrae <yisrae@fedorae>
 
 ### 🏡 Chore
 
