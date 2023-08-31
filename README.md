@@ -11,6 +11,10 @@
 Add `@fedorae/nuxt-uikit` dependency to your project:
 
 ```bash
+# Using pnpm
+pnpm add -D @fedorae/nuxt-uikit
+```
+```bash
 # Using yarn
 yarn add --dev @fedorae/nuxt-uikit
 ```
