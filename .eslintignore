@@ -4,3 +4,4 @@ dist
 .nuxt
 coverage
 docs
+template
