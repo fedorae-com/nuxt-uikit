@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 * add JsDoc ([1a3f385](https://github.com/fedorae-com/nuxt-uikit/commit/1a3f38507cd9e7bfd51dba13835f3ce8a0c02a28))
 * add jsdoc docs website ([cb20590](https://github.com/fedorae-com/nuxt-uikit/commit/cb2059007d1f7af171d0a74c95f00c3ad247d8b1))
-* **client:** add jsdoc comments ([da39068](https://github.com/fedorae-com/nuxt-uikit/commit/da39068d98c445b98ca17f20868f00b6fd27a8af))
+* add jsdoc comments ([da39068](https://github.com/fedorae-com/nuxt-uikit/commit/da39068d98c445b98ca17f20868f00b6fd27a8af))
 
 
 ### Bug Fixes
