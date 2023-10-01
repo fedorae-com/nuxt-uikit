@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.0.11
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.10...v3.0.11)
+
+### 💅 Refactors
+
+- Add pnpm install/add option ([1d1235e](https://github.com/fedorae-com/nuxt-uikit/commit/1d1235e))
+
+### 🏡 Chore
+
+- Upgrade all dependencies to latest ([4f7c1e8](https://github.com/fedorae-com/nuxt-uikit/commit/4f7c1e8))
+- **docs:** Upgrade all dependencies to latest ([cf99dc1](https://github.com/fedorae-com/nuxt-uikit/commit/cf99dc1))
+- **docs:** Scale cover image ([cb3cb0a](https://github.com/fedorae-com/nuxt-uikit/commit/cb3cb0a))
+
+### ❤️ Contributors
+
+- Yisrae <yisrae@fedorae>
+
 ## v3.0.10
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.9...v3.0.10)
