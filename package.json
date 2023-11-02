@@ -4,6 +4,7 @@
   "description": "UIkit module for Nuxt.js",
   "repository": "https://github.com/fedorae-com/nuxt-uikit",
   "license": "MIT",
+  "type": "module",
   "contributors": [
     {
       "name": ""
