@@ -4,6 +4,6 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 4.8
 
-import NuxtUIkit from './lib/module';
+import NuxtUIkit from './src/module';
 
 export default NuxtUIkit;
