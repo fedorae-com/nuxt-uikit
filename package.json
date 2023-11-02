@@ -21,11 +21,13 @@
     "release": "standard-version && git push --follow-tags && yarn publish"
   },
   "dependencies": {
+    "@nuxt/kit": "^3.8.0",
     "uikit": "latest"
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
     "@nuxtjs/eslint-config-typescript": "latest",
+    "@types/uikit": "^3.14.3",
     "eslint": "latest",
     "jsdoc": "^4.0.2",
     "nuxt-edge": "latest",
