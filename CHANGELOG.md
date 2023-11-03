@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.1.2
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.1...v3.1.2)
+
+### 💅 Refactors
+
+- **docs:** Add correct Nuxt version ([c1ee058](https://github.com/fedorae-com/nuxt-uikit/commit/c1ee058))
+
+### ❤️ Contributors
+
+- Yisrae <yisrae@fedorae>
+
 ## v3.1.1
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.0...v3.1.1)
