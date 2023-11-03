@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.1.0
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.11...v3.1.0)
+
+### 🚀 Enhancements
+
+- Update head script implementation to use local uikit files ([338b6d5](https://github.com/fedorae-com/nuxt-uikit/commit/338b6d5))
+
+### 🏡 Chore
+
+- Add postinstall script to copy uikit files to runtime/public dir ([10af15e](https://github.com/fedorae-com/nuxt-uikit/commit/10af15e))
+- Update all dependencies to latest ([1a62597](https://github.com/fedorae-com/nuxt-uikit/commit/1a62597))
+- **docs:** Update dependencies to latest ([451c0f0](https://github.com/fedorae-com/nuxt-uikit/commit/451c0f0))
+- Add runtime/public dir ([0bc6d0c](https://github.com/fedorae-com/nuxt-uikit/commit/0bc6d0c))
+
+### 🎨 Styles
+
+- Lint --fix ([ebf1f72](https://github.com/fedorae-com/nuxt-uikit/commit/ebf1f72))
+
+### ❤️ Contributors
+
+- Yisrae <yisrae@fedorae>
+
 ## v3.0.11
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.10...v3.0.11)
