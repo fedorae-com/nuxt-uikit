@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.1.1
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.0...v3.1.1)
+
+### 💅 Refactors
+
+- Rename postinstall script to uikit ([c7d4f10](https://github.com/fedorae-com/nuxt-uikit/commit/c7d4f10))
+- Change file extension to mjs ([301de55](https://github.com/fedorae-com/nuxt-uikit/commit/301de55))
+
+### ❤️ Contributors
+
+- Yisrae <yisrae@fedorae>
+
 ## v3.1.0
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.11...v3.1.0)
