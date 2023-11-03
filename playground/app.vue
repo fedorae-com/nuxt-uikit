@@ -3,7 +3,9 @@
     <div class="uk-container">
       <div class="uk-margin-top">
         <div class="uk-card uk-card-default uk-card-body uk-width-1-1@m">
-          <h3 class="uk-card-title">UIkit module for Nuxt</h3>
+          <h3 class="uk-card-title">
+            UIkit module for Nuxt
+          </h3>
           <p>
             UIkit is a lightweight and modular front-end framework for
             developing fast and powerful web interfaces.
@@ -15,8 +17,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              documentation </a
-            >.
+              documentation </a>.
           </p>
           <p>
             Find a bug? Report it on the github
@@ -26,8 +27,7 @@
               rel="noopener noreferrer"
               title="contribute"
             >
-              issue board </a
-            >.
+              issue board </a>.
           </p>
           <p>Thank you for using this UIkit module.</p>
           <div class="uk-margin-small-bottom">
@@ -43,7 +43,7 @@
           <div class="text-xs-right">
             <em><small>&mdash; Yisrae</small></em>
           </div>
-          <hr />
+          <hr>
           <a
             href="https://nuxtjs.org/"
             target="_blank"
@@ -51,15 +51,14 @@
           >
             Nuxt Documentation
           </a>
-          <br />
+          <br>
           <a
             href="https://github.com/nuxt/nuxt.js"
             target="_blank"
             rel="noopener noreferrer"
-            >Nuxt GitHub</a
-          >
-          <br />
-          <br />
+          >Nuxt GitHub</a>
+          <br>
+          <br>
         </div>
       </div>
     </div>
@@ -67,7 +66,11 @@
     <!-- Offcanvas -->
     <div id="offcanvas-overlay">
       <div class="uk-offcanvas-bar">
-        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <button
+          class="uk-offcanvas-close"
+          type="button"
+          uk-close
+        />
 
         <h3>Title</h3>
 
