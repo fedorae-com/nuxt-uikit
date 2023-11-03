@@ -56,11 +56,11 @@ export default defineNuxtModule<ModuleOptions>({
       head.script.push(
         {
           defer: true,
-          src: '/uikit.min.js'
+          src: '/uikit.min.mjs'
         },
         {
           defer: true,
-          src: '/uikit-icons.min.js'
+          src: '/uikit-icons.min.mjs'
         }
       )
     })
