@@ -1,7 +1,7 @@
 import { fileURLToPath } from 'url'
 import { defineNuxtModule, createResolver, addPlugin } from '@nuxt/kit'
 import { addCustomTab } from '@nuxt/devtools-kit'
-import { name, version, dependencies } from '../package.json'
+import { name, version } from '../package.json'
 
 export interface ModuleOptions {}
 
@@ -16,13 +16,19 @@ export default defineNuxtModule<ModuleOptions>({
     const { resolve } = createResolver(import.meta.url)
     const useNuxtMeta = (fn: Function) => fn(nuxt.options.app.head)
 
-    const uikitVersion = dependencies.uikit
-
     const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
     nuxt.options.build.transpile.push(runtimeDir)
 
     nuxt.options.css = nuxt.options.css ?? []
     nuxt.options.css.push('uikit/dist/css/uikit.min.css')
+
+    nuxt.hook('nitro:config', (nitroConfig) => {
+      nitroConfig.publicAssets ||= []
+      nitroConfig.publicAssets.push({
+        dir: resolve('./runtime/public'),
+        maxAge: 60 * 60 * 24 * 365 // 1 year
+      })
+    })
 
     addPlugin(resolve(runtimeDir, 'plugin'))
 
@@ -47,16 +53,14 @@ export default defineNuxtModule<ModuleOptions>({
 
     useNuxtMeta((head: any) => {
       head.script = head.script ?? []
-
-      // TODO: figure out a better way to get the icons to work
       head.script.push(
         {
           defer: true,
-          src: `https://cdn.jsdelivr.net/npm/uikit@${uikitVersion}/dist/js/uikit.min.js`,
+          src: '/uikit.min.js'
         },
         {
           defer: true,
-          src: `https://cdn.jsdelivr.net/npm/uikit@${uikitVersion}/dist/js/uikit-icons.min.js`,
+          src: '/uikit-icons.min.js'
         }
       )
     })
