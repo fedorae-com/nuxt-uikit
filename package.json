@@ -22,7 +22,7 @@
     "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground && yarn uikit",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
     "release": "yarn lint && yarn test && yarn prepack && changelogen --release && yarn publish && git push --follow-tags",
     "uikit": "cp node_modules/uikit/dist/js/uikit.min.js src/runtime/public/ && cp node_modules/uikit/dist/js/uikit-icons.min.js src/runtime/public/",
     "clean": "rm -rf .nuxt && rm -rf node_modules && rm -rf yarn.lock",
