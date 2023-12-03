@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.1.3
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.2...v3.1.3)
+
+### 🏡 Chore
+
+- Update deps to latest ([8043c80](https://github.com/fedorae-com/nuxt-uikit/commit/8043c80))
+- Add 'yarn uikit' to 'dev:prepare' script ([a0d6574](https://github.com/fedorae-com/nuxt-uikit/commit/a0d6574))
+- Move latest uikit (v3.17.11) files to runtime/public ([1c71726](https://github.com/fedorae-com/nuxt-uikit/commit/1c71726))
+- **docs:** Bump nuxt version (v3.8.3) ([ae72c40](https://github.com/fedorae-com/nuxt-uikit/commit/ae72c40))
+- Add clean script to module and docs ([e1c23d2](https://github.com/fedorae-com/nuxt-uikit/commit/e1c23d2))
+
+### ❤️ Contributors
+
+- Yisrae <yisrae@fedorae>
+
 ## v3.1.2
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.1...v3.1.2)
