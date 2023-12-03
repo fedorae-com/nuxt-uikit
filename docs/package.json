@@ -6,7 +6,8 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
-    "preview": "nuxi preview"
+    "preview": "nuxi preview",
+    "clean": "rm -rf .nuxt && rm -rf node_modules && rm -rf yarn.lock"
   },
   "devDependencies": {
     "@nuxt-themes/docus": "^1.15.0",
