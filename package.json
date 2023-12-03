@@ -30,20 +30,20 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/devtools-kit": "^1.0.0",
-    "@nuxt/kit": "^3.8.0",
-    "uikit": "^3.17.8"
+    "@nuxt/devtools-kit": "^1.0.4",
+    "@nuxt/kit": "^3.8.2",
+    "uikit": "^3.17.11"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.0.0",
+    "@nuxt/devtools": "^1.0.4",
     "@nuxt/eslint-config": "^0.2.0",
-    "@nuxt/module-builder": "^0.5.2",
-    "@nuxt/schema": "^3.8.0",
-    "@nuxt/test-utils": "^3.8.0",
-    "@types/uikit": "^3.14.3",
+    "@nuxt/module-builder": "^0.5.4",
+    "@nuxt/schema": "^3.8.2",
+    "@nuxt/test-utils": "^3.8.1",
+    "@types/uikit": "^3.14.4",
     "changelogen": "^0.5.5",
-    "eslint": "^8.52.0",
-    "nuxt": "^3.8.0",
+    "eslint": "^8.55.0",
+    "nuxt": "^3.8.2",
     "vitest": "^0.34.6"
   },
   "keywords": [
