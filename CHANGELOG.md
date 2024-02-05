@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.1.5
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.4...v3.1.5)
+
+### 🏡 Chore
+
+- Update LICENSE year ([38a4a68](https://github.com/fedorae-com/nuxt-uikit/commit/38a4a68))
+- Bump dependencies to latest ([0c5ce60](https://github.com/fedorae-com/nuxt-uikit/commit/0c5ce60))
+- Dev:prepare ([d14e39d](https://github.com/fedorae-com/nuxt-uikit/commit/d14e39d))
+- **docs:** Bump nuxt to latest (v3.10.0) ([edc02fd](https://github.com/fedorae-com/nuxt-uikit/commit/edc02fd))
+- Update github links ([007a6e5](https://github.com/fedorae-com/nuxt-uikit/commit/007a6e5))
+- Update github username from `Yisrae` to `Fedorae` & update nuxt website link ([48308f7](https://github.com/fedorae-com/nuxt-uikit/commit/48308f7))
+
+### ❤️ Contributors
+
+- Swalx <swalx@fedorae>
+
 ## v3.1.4
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.3...v3.1.4)
