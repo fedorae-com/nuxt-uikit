@@ -33,7 +33,7 @@
           <div class="uk-margin-small-bottom">
             <a
               id="iconEl"
-              href="https://github.com/fedorae-com/nuxt-uikit-modules"
+              href="https://github.com/fedorae-com/nuxt-uikit"
               target="_blank"
               rel="noopener noreferrer"
               class="uk-icon-button"
@@ -53,7 +53,7 @@
           </a>
           <br>
           <a
-            href="https://github.com/nuxt/nuxt.js"
+            href="https://github.com/nuxt/nuxt"
             target="_blank"
             rel="noopener noreferrer"
           >Nuxt GitHub</a>
