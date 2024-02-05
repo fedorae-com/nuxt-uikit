@@ -41,11 +41,11 @@
             />
           </div>
           <div class="text-xs-right">
-            <em><small>&mdash; Yisrae</small></em>
+            <em><small>&mdash; Fedorae</small></em>
           </div>
           <hr>
           <a
-            href="https://nuxtjs.org/"
+            href="https://nuxt.com"
             target="_blank"
             rel="noopener noreferrer"
           >
