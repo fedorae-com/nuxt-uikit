@@ -24,7 +24,7 @@ npm install --save-dev @fedorae/nuxt-uikit
 ```
 
 ## Setup
-Add @fedorae/nuxt-uikit to the modules section of your nuxt.config.ts file:
+Add `@fedorae/nuxt-uikit` to the modules section of your `nuxt.config.ts` file:
 
 ```ts
 {
