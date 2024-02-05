@@ -46,4 +46,4 @@ Nuxt UIkit Image - [https://codesandbox.io/s/pjmkmvp327](https://codesandbox.io/
 
 [MIT License](./LICENSE)
 
-Copyright (c) 2023 Fedorae
+Copyright (c) 2024 Fedorae
