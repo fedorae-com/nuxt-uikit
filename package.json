@@ -32,8 +32,8 @@
   },
   "dependencies": {
     "@nuxt/devtools-kit": "^1.0.8",
-    "@nuxt/kit": "^3.10.0",
-    "uikit": "^3.18.0"
+    "@nuxt/kit": "^3.10.3",
+    "uikit": "^3.19.1"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.0.8",
