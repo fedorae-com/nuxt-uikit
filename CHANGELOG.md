@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.1.6
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.0.0-beta.10...v3.1.6)
+
+### 🏡 Chore
+
+- Regenerate yarn.lock file ([b1e5da7](https://github.com/fedorae-com/nuxt-uikit/commit/b1e5da7))
+- Bump uikit v3.19.1 ([a62a54d](https://github.com/fedorae-com/nuxt-uikit/commit/a62a54d))
+- Bump dependencies to latest ([93ed452](https://github.com/fedorae-com/nuxt-uikit/commit/93ed452))
+- **docs:** Bump dependencies ([be8257c](https://github.com/fedorae-com/nuxt-uikit/commit/be8257c))
+
+### ❤️ Contributors
+
+- Swalx <swalx@fedorae>
+
 ## v3.1.5
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.4...v3.1.5)
