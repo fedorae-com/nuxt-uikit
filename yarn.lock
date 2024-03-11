@@ -897,7 +897,7 @@
     eslint-plugin-vue "^9.17.0"
     typescript "^5.2.2"
 
-"@nuxt/kit@3.10.3", "@nuxt/kit@^3.10.0", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.1", "@nuxt/kit@^3.9.3":
+"@nuxt/kit@3.10.3", "@nuxt/kit@^3.10.3", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.1", "@nuxt/kit@^3.9.3":
   version "3.10.3"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.10.3.tgz#911bc431d9b7541a7269e9e63333f70c8ecb5fd6"
   integrity sha512-PUjYB9Mvx0qD9H1QZBwwtY4fLlCLET+Mm9BVqUOtXCaGoXd6u6BE4e/dGFPk2UEKkIcDGrUMSbqkHYvsEuK9NQ==
@@ -932,7 +932,7 @@
     pathe "^1.1.1"
     unbuild "^2.0.0"
 
-"@nuxt/schema@3.10.3", "@nuxt/schema@^3.10.0", "@nuxt/schema@^3.9.1", "@nuxt/schema@^3.9.3":
+"@nuxt/schema@3.10.3", "@nuxt/schema@^3.10.3", "@nuxt/schema@^3.9.1", "@nuxt/schema@^3.9.3":
   version "3.10.3"
   resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.10.3.tgz#b9bdcced298b64f280f12936e518fe4f32c90328"
   integrity sha512-a4cYbeskEVBPazgAhvUGkL/j7ho/iPWMK3vCEm6dRMjSqHVEITRosrj0aMfLbRrDpTrMjlRs0ZitxiaUfE/p5Q==
@@ -2164,9 +2164,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001587, caniuse-lite@^1.0.30001591:
-  version "1.0.30001596"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001596.tgz#da06b79c3d9c3d9958eb307aa832ac68ead79bee"
-  integrity sha512-zpkZ+kEr6We7w63ORkoJ2pOfBwBkY/bJrG/UZ90qNb45Isblu8wzDgevEOrRL1r9dWayHjYiiyCMEXPn4DweGQ==
+  version "1.0.30001597"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001597.tgz#8be94a8c1d679de23b22fbd944232aa1321639e6"
+  integrity sha512-7LjJvmQU6Sj7bL0j5b5WY/3n7utXUJvAe1lxhsHDbLmwX9mdL86Yjtr+5SRCyf8qME4M7pU2hswj0FpyBVCv9w==
 
 chai@^4.3.10:
   version "4.4.1"
@@ -2913,7 +2913,7 @@ eslint-visitor-keys@^3.3.0, eslint-visitor-keys@^3.4.1, eslint-visitor-keys@^3.4
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz#0cd72fe8550e3c2eae156a96a4dddcd1c8ac5800"
   integrity sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==
 
-eslint@^8.56.0:
+eslint@^8.57.0:
   version "8.57.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.57.0.tgz#c786a6fd0e0b68941aaf624596fb987089195668"
   integrity sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==
@@ -4564,7 +4564,7 @@ nuxi@^3.10.1:
   optionalDependencies:
     fsevents "~2.3.3"
 
-nuxt@^3.10.0:
+nuxt@^3.10.3:
   version "3.10.3"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.10.3.tgz#5cc62f20a20efe59e245efa28b9a9949075a38aa"
   integrity sha512-NchGNiiz9g/ErJAb462W/lpX2NqcXYb9hugySKWvLXNdrjeAPiJ2/7mhgwUSiZA9MpjuQg3saiEajr1zlRIOCg==
@@ -5974,7 +5974,7 @@ ufo@^1.1.2, ufo@^1.2.0, ufo@^1.3.0, ufo@^1.3.1, ufo@^1.3.2, ufo@^1.4.0:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.4.0.tgz#39845b31be81b4f319ab1d99fd20c56cac528d32"
   integrity sha512-Hhy+BhRBleFjpJ2vchUNN40qgkh0366FWJGqVLYBHev0vpHTrXSA0ryT+74UiW6KWsldNurQMKGqCm1M2zBciQ==
 
-uikit@^3.18.0:
+uikit@^3.19.1:
   version "3.19.1"
   resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.19.1.tgz#285325915c22a3914daeecaa1ad5b8f4cbe15329"
   integrity sha512-a3bgLea7uaDq/43yLVbHUOLte0JVRZic3LN2jaltLzzZl9lbTazBSb8nGvZ1gMiwMRHSPvwlCFwFoFLvVN8oeA==
@@ -6314,7 +6314,7 @@ vitest-environment-nuxt@^1.0.0:
   dependencies:
     "@nuxt/test-utils" ">=3.9.0"
 
-vitest@^1.2.2:
+vitest@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/vitest/-/vitest-1.3.1.tgz#2d7e9861f030d88a4669392a4aecb40569d90937"
   integrity sha512-/1QJqXs8YbCrfv/GPQ05wAZf2eakUPLPa18vkJAKE7RXOKfVHqMZZ1WlTjiwl6Gcn65M5vpNUB6EFLnEdRdEXQ==
