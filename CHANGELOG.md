@@ -12,9 +12,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 🏡 Chore
 
-- **docs:** Dump nuxt version ([22dbabe](https://github.com/fedorae-com/nuxt-uikit/commit/22dbabe))
-- Dump deps with minor updates ([5d1c1fa](https://github.com/fedorae-com/nuxt-uikit/commit/5d1c1fa))
-- Dump deps with major updates ([d59ddda](https://github.com/fedorae-com/nuxt-uikit/commit/d59ddda))
+- **docs:** Bump nuxt version ([22dbabe](https://github.com/fedorae-com/nuxt-uikit/commit/22dbabe))
+- Bump deps with minor updates ([5d1c1fa](https://github.com/fedorae-com/nuxt-uikit/commit/5d1c1fa))
+- Bump deps with major updates ([d59ddda](https://github.com/fedorae-com/nuxt-uikit/commit/d59ddda))
 - Cp new uikit js files ([fb2ad63](https://github.com/fedorae-com/nuxt-uikit/commit/fb2ad63))
 - Add typescript ([40259ed](https://github.com/fedorae-com/nuxt-uikit/commit/40259ed))
 
