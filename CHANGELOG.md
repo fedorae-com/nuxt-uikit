@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.1.8
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.7...v3.1.8)
+
+### 💅 Refactors
+
+- Remove composable implementation #6 ([#6](https://github.com/fedorae-com/nuxt-uikit/issues/6))
+
+### 🏡 Chore
+
+- Bump Minor dep versions ([173eaf3](https://github.com/fedorae-com/nuxt-uikit/commit/173eaf3))
+- Bump @nuxt/module-builder ([6dab9c7](https://github.com/fedorae-com/nuxt-uikit/commit/6dab9c7))
+- Update uikit js files ([1b79512](https://github.com/fedorae-com/nuxt-uikit/commit/1b79512))
+
+### ❤️ Contributors
+
+- Swalx <swalx@fedorae>
+
 ## v3.1.7
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.6...v3.1.7)
