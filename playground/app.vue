@@ -88,7 +88,6 @@
 <script setup>
 import { onMounted } from 'vue'
 import UIkit from 'uikit'
-// const { UIkit, notification, sticky, icon, drop, offcanvas } = useUIkit()
 onMounted(() => {
   UIkit.notification({ message: 'Nuxt + UIkit', status: 'success' })
   const iconEl = UIkit.icon('#iconEl').icon

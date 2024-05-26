@@ -32,13 +32,6 @@ export default defineNuxtModule<ModuleOptions>({
 
     addPlugin(resolve(runtimeDir, 'plugin'))
 
-    // Disable import due to return https://github.com/fedorae-com/nuxt-uikit/issues/4
-    // addImports({
-    //   name: 'useUIkit',
-    //   as: 'useUIkit',
-    //   from: resolve(runtimeDir, 'composables/useUIkit'),
-    // })
-
     if (nuxt.options.devtools && nuxt.options.dev) {
       addCustomTab({
         name: 'nuxt-uikit',
