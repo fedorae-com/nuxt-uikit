@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.1.9
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.8...v3.1.9)
+
+### 🩹 Fixes
+
+- Hydration class mismatch issue ([3fb1b4d](https://github.com/fedorae-com/nuxt-uikit/commit/3fb1b4d))
+
+### 💅 Refactors
+
+- Update build files extensions ([098eec8](https://github.com/fedorae-com/nuxt-uikit/commit/098eec8))
+
+### 🏡 Chore
+
+- Bump dependencies to latest ([d5c28ae](https://github.com/fedorae-com/nuxt-uikit/commit/d5c28ae))
+
+### ✅ Tests
+
+- Add simple test for GitHub icon element ([ef256d3](https://github.com/fedorae-com/nuxt-uikit/commit/ef256d3))
+
+### ❤️ Contributors
+
+- Swalx <swalx@fedorae>
+
 ## v3.1.8
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.7...v3.1.8)
