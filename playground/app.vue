@@ -36,7 +36,7 @@
               href="https://github.com/fedorae-com/nuxt-uikit"
               target="_blank"
               rel="noopener noreferrer"
-              class="uk-icon-button"
+              class="uk-icon-button uk-icon"
               uk-icon="github"
             />
           </div>
@@ -67,10 +67,10 @@
     <div id="offcanvas-overlay">
       <div class="uk-offcanvas-bar">
         <button
-          class="uk-offcanvas-close"
+          class="uk-offcanvas-close uk-icon uk-close"
           type="button"
           uk-close
-        />
+          />
 
         <h3>Title</h3>
 
