@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.1.12
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.11...v3.1.12)
+
+### 💅 Refactors
+
+- Change how offcanvas title check is done ([2c479a3](https://github.com/fedorae-com/nuxt-uikit/commit/2c479a3))
+
+### 🏡 Chore
+
+- **playground:** Add compatibility date ([f74c9da](https://github.com/fedorae-com/nuxt-uikit/commit/f74c9da))
+- Bump patch+minor release deps ([9a7be49](https://github.com/fedorae-com/nuxt-uikit/commit/9a7be49))
+- Bump major release deps ([6f3521c](https://github.com/fedorae-com/nuxt-uikit/commit/6f3521c))
+- **docs:** Set compatibility date ([40dadc1](https://github.com/fedorae-com/nuxt-uikit/commit/40dadc1))
+- **docs:** Bump nuxt + docus ([f8bb41e](https://github.com/fedorae-com/nuxt-uikit/commit/f8bb41e))
+- Copied uikit js files ([de50681](https://github.com/fedorae-com/nuxt-uikit/commit/de50681))
+
+### ❤️ Contributors
+
+- Swalx <swalx@fedorae>
+
 ## v3.1.11
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.10...v3.1.11)
