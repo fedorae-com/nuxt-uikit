@@ -17,17 +17,15 @@ describe('main', async () => {
   })
 
   it('renders the GitHub icon', async () => {
-    // Get response to a server-rendered page with `$fetch`.
-    const html = await $fetch('/')
-
     const wrapper = mount(App)
     const element = wrapper.find('#iconEl')
+    const offcanvasTitleElement = wrapper.find('#offcanvas-title')
     expect(element.exists()).toBeTruthy()
+
+    // Offcanvas is shown
+    expect(offcanvasTitleElement.exists()).toBeTruthy()
 
     // element has class
     expect(element.classes()).toEqual(expect.arrayContaining(['uk-icon-button']))
-
-    // Offcanvas is shown
-    expect(html).toContain('<h3>Title</h3>')
   })
 })

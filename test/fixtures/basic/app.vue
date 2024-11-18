@@ -83,7 +83,7 @@ onMounted(() => {
           uk-close
           />
 
-        <h3>Title</h3>
+        <h3 id="offcanvas-title">Title</h3>
 
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
