@@ -24,7 +24,7 @@
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground && yarn uikit",
     "release": "yarn lint && yarn test && yarn prepack && changelogen --release && yarn publish && git push --follow-tags",
-    "uikit": "cp node_modules/uikit/dist/js/uikit.min.js src/runtime/public/ && cp node_modules/uikit/dist/js/uikit-icons.min.js src/runtime/public/",
+    "upgrade-uikit": "yarn upgrade uikit && cp node_modules/uikit/dist/js/uikit.min.js src/runtime/public/ && cp node_modules/uikit/dist/js/uikit-icons.min.js src/runtime/public/",
     "clean": "rm -rf .nuxt && rm -rf node_modules && rm -rf yarn.lock",
     "lint": "eslint .",
     "test": "vitest run",
