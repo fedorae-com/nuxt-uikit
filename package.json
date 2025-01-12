@@ -31,24 +31,24 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/devtools-kit": "^1.6.0",
-    "@nuxt/kit": "^3.14.159",
+    "@nuxt/devtools-kit": "^1.7.0",
+    "@nuxt/kit": "^3.15.1",
     "uikit": "^3.21.13"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.6.0",
-    "@nuxt/eslint-config": "^0.7.0",
+    "@nuxt/devtools": "^1.7.0",
+    "@nuxt/eslint-config": "^0.7.5",
     "@nuxt/module-builder": "^0.8.4",
-    "@nuxt/schema": "^3.14.159",
-    "@nuxt/test-utils": "^3.14.4",
+    "@nuxt/schema": "^3.15.1",
+    "@nuxt/test-utils": "^3.15.3",
     "@types/uikit": "^3.14.5",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/test-utils": "^2.4.6",
     "changelogen": "^0.5.7",
-    "eslint": "^9.15.0",
+    "eslint": "^9.18.0",
     "happy-dom": "^15.11.7",
-    "nuxt": "^3.14.159",
-    "typescript": "^5.6.3",
+    "nuxt": "^3.15.1",
+    "typescript": "^5.7.3",
     "vitest": "^2.1.8"
   },
   "keywords": [
