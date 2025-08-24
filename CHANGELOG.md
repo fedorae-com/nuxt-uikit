@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v3.1.14
+
+[compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.13...v3.1.14)
+
+### 💅 Refactors
+
+- **docs:** Replace yarn -> pnpm + switch pnpn workspace ([8cb2918](https://github.com/fedorae-com/nuxt-uikit/commit/8cb2918))
+
+### ❤️ Contributors
+
+- Swalx <swalx@fedorae>
+
 ## v3.1.13
 
 [compare changes](https://github.com/fedorae-com/nuxt-uikit/compare/v3.1.12...v3.1.13)
